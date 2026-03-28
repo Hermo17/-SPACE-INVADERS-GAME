@@ -143,7 +143,7 @@ class Player:
         self.lives = 3
         self.score = 0
         self.shoot_cooldown = 0
-        self.invincible = 0  # frames of invincibility after hit
+        self.invincible = 0 
 
     def update(self, keys):
         if keys[pygame.K_LEFT] or keys[pygame.K_a]:
